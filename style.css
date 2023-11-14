@@ -1,0 +1,76 @@
+@font-face {
+    font-family: myFont;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(234, 29%, 20%);
+    font-family: myFont;
+}
+.container{
+    display: flex;
+    width: 700px;
+    padding: 20px;
+    background-color: rgb(224, 234, 230);
+    border-radius: 10px;
+}
+.left{
+    width: 60%;
+}
+.right{
+    width: 40%;
+}
+.right img{
+    width: 100%;
+}
+ul{
+    list-style-image: url(./assets/images/icon-list.svg);
+    margin-left: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column  ;
+    width: 300px;
+}
+input{
+    font-family: inherit;
+    padding: 10px 20px;
+    outline: none;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+button{
+    font-family: inherit;
+    padding: 10px 20px;
+    background-color: hsl(231, 7%, 60%);
+    color: white;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+.hide{
+    display: none;
+}
+.card{
+    background-color: white;
+    width: 400px;
+    padding:20px 40px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.card button{
+    width: 100%;
+}
